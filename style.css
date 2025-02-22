@@ -98,7 +98,7 @@ a{
     display:block;
     padding:3px;
     text-align: end;
-    font-size: 0.5rem;
+    font-size: 1rem;
     color: black;
     text-decoration: none;
     transition: all 0.2 ease-in-out;
@@ -169,7 +169,7 @@ section{
     font-weight: 600;
 
 }
-.section__text_p1{
+.section__text__p1{
     text-align: center
 }
 .section__text__p2{
