@@ -88,6 +88,7 @@ a{
 .menu-links{
     position: absolute;
     background-color: white;
+    text-align: end;
     width: fit-content;
     max-height:0;
     overflow: hidden;
@@ -95,9 +96,9 @@ a{
 }
 .menu-links a{
     display:block;
-    padding:8px;
-    text-align: center;
-    font-size: 1.5rem;
+    padding:3px;
+    text-align: end;
+    font-size: 0.5rem;
     color: black;
     text-decoration: none;
     transition: all 0.2 ease-in-out;
@@ -106,7 +107,7 @@ a{
     list-style: none; 
 }
 .menu-links.open{
-    max-height:200px;
+    max-height:300px;
 }
 .hamburger-icon.open span:first-child{
     transform: rotate(45deg) translate(10px, 5px);
